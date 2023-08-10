@@ -2,7 +2,7 @@ import { promises as fs } from "fs";
 
 export class ProductManager {
   constructor() {
-    this.path = "./src/productos.txt";
+    this.path = "./productos.txt";
   }
 
   addProduct = async (product) => {

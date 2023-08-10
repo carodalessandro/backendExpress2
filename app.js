@@ -6,7 +6,7 @@ const app = express();
 
 const PORT = 4000;
 
-const productos = new ProductManager("./src/productos.txt");
+const productos = new ProductManager("./productos.txt");
 
 app.use(express.urlencoded({ extended: true }));
 
